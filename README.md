@@ -20,6 +20,25 @@ Since I use Angular for frontend functionalities, I created the required compone
 
 ## Images
 
-###Endpoints Testing Images
-
+User Register
 <img width="1000" src="./Images/register.PNG">
+
+User List
+<img width="1000" src="./Images/users.PNG">
+
+User Update
+<img width="1000" src="./Images/update.PNG">
+
+User Update Result
+<img width="1000" src="./Images/update_res.PNG">
+
+User Delete
+<img width="1000" src="./Images/delete.PNG">
+
+User Delete Result
+<img width="1000" src="./Images/delete_res.PNG">
+
+Web Pages
+<img width="1000" src="./Images/login.PNG">
+<img width="1000" src="./Images/register_web.PNG">
+<img width="1000" src="./Images/users_web.PNG">
