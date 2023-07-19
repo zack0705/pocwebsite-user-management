@@ -1,0 +1,22 @@
+<div>
+    <h2>Register User</h2>
+    <form (ngSubmit)="registerUser()" #registerForm="ngForm">
+
+            <label for="firstName">First Name </label>
+            <input type="text" id="firstName" name="firstName" [(ngModel)]="registrationFormModel.firstName" required>
+
+            <label for="lastName">Last Name </label>
+            <input type="text" id="lastName" name="lastName" [(ngModel)]="registrationFormModel.lastName" required>
+
+            <label for="email">Email </label>
+            <input type="email" id="email" name="email" [(ngModel)]="registrationFormModel.email" required>
+
+            <label for="password">Password </label>
+            <input type="password" id="password" name="password" [(ngModel)]="registrationFormModel.password" required>
+
+        <button type="submit">Register</button>
+        <p *ngIf="registrationSuccess">Registration successful</p>
+    </form>
+    <br>
+    <button (click)="redirectToLink('/login')">Login Now</button>
+</div>

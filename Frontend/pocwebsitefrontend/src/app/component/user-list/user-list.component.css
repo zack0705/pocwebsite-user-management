@@ -1,0 +1,58 @@
+/* Reset some default styles to ensure consistent rendering */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the container div */
+div {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style the table headers */
+thead th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style the table data cells */
+tbody td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Style the action links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Optional: Add some hover effect to the action links */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Optional: Center the heading */
+h2 {
+    text-align: center;
+}

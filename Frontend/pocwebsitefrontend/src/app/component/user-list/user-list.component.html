@@ -1,0 +1,24 @@
+<div>
+    <h2>List of Registered Users</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of userList">
+                <td>{{ user.firstName }}</td>
+                <td>{{ user.lastName }}</td>
+                <td>{{ user.email }}</td>
+                <td>
+                    <a [routerLink]="['/users', user.id, 'update']">Update User</a> |
+                    <a href="#" (click)="deleteUser(user.id)">Delete User</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
