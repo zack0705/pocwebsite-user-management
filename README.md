@@ -22,4 +22,4 @@ Since I use Angular for frontend functionalities, I created the required compone
 
 ###Endpoints Testing Images
 
-<img width="1000" src="./Images/register.png">
+<img width="1000" src="./Images/register.PNG">
